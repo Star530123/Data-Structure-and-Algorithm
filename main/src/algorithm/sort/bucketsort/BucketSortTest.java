@@ -13,6 +13,7 @@ public class BucketSortTest extends SortTest {
         Sort sort = new BucketSort();
         ascendingOrder(sort, RandomUtil.generateArr(20));
         ascendingOrder(sort, RandomUtil.generateArr(30));
+        ascendingOrder(sort, new int[]{123,4,-486,23});
     }
 
 }
